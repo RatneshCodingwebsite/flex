@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color:white;
+    height: 100vh;
+    width: 100wh;
+    border: 1 px solid black;
+    margin: 5px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    /* display: flex; */
+}
+header{
+    height: 100px;
+     background-color: blueviolet; 
+     margin: 5px;   
+}
+main{
+    height: 600px;
+     background-color: white;
+     margin: 5px;
+     display: flex;
+      
+}
+article{
+     flex-grow: 1;
+     height: 300px;
+     background-color: rgb(190, 201, 221);
+     /* margin: 5px; */
+}
+.art1{
+        background-color: blue;
+}
+.art2{
+    background-color: rgb(39, 65, 53);
+}
+
+aside{
+     flex-grow: 2;
+     background-color: rgb(93, 176, 190);
+     display: flex;
+     flex-wrap: wrap;
+     height: 500px;
+     /* margin-top: 100px; */
+     flex-direction: column;
+     margin: 5px;
+}
+
+.one{
+      background-color: orangered;
+      margin: 5px;
+      flex-grow: 1;
+}
+.two{
+      background-color: white;
+      margin: 5px;
+      flex-grow: 2;
+}
+
+.three{
+      background-color:darkgreen;
+      margin: 5px;
+      flex-grow: 1;
+}
+
+section{
+     flex-grow: 1;
+     height: 580px;
+     background-color: rgb(102, 79, 131);
+     margin: 2px;
+     /* display: flex; */
+     flex-direction: column;
+}
+.sac1{
+        background-color: aqua;
+        height: 200px;
+        margin: 2px;
+}
+.sac2{
+    height: 200px;
+    background-color: chartreuse;
+}   
+
+footer{
+    display: flex;
+     background-color: crimson;
+     flex-direction: row;
+     flex: 1 0 200px;
+     margin: 5px;
+     align-items: flex-start;
+   height: 150px;
+   
+}
